@@ -1,3 +1,22 @@
-h1 {
-  color: red;
+.content_logo {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_png {
+  display: flex;
+  align-items: center;
+  font-family: "poppins";
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 20px;
+  color: #000000;
+}
+.body_list {
+  display: flex;
+  justify-content: space-between;
+  color: #556987;
+}
+.sign-up {
+  background-color: blue;
+  color: #ffffff;
 }
