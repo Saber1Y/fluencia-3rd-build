@@ -1,8 +1,8 @@
-.content_logo {
+.content__logo {
   display: flex;
   justify-content: space-between;
 }
-.logo_png {
+.content__png {
   display: flex;
   align-items: center;
   font-family: "poppins";
@@ -11,12 +11,41 @@
   line-height: 20px;
   color: #000000;
 }
-.body_list {
+.sign__up {
+  background-color: blue;
+  color: #ffffff;
+}
+.card__text {
+  margin: 150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.card__header {
+  height: 180px;
+  width: 100%;
+  top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #2a3342;
+}
+.card__header-text {
+  width: 120%;
+}
+.card__paragraph {
+  height: 60px;
+  top: 255px;
+  width: 70%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
   color: #556987;
 }
-.sign-up {
-  background-color: blue;
+.find-brands {
+  background-color: #3b82f6;
   color: #ffffff;
 }
