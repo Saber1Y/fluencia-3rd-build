@@ -49,3 +49,44 @@
   background-color: #3b82f6;
   color: #ffffff;
 }
+.content__list {
+  margin: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2a3342;
+}
+.btn__text {
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2a3342;
+}
+.section__text {
+  display: flex;
+  justify-content: center;
+}
+.buttom__text {
+  width: 261px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #556987;
+}
