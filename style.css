@@ -22,17 +22,17 @@
 }
 .card__header {
   height: 180px;
-  width: 100%;
+  width: 70%;
   top: 50px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 43px;
   line-height: 60px;
   color: #2a3342;
 }
 .card__header-text {
-  width: 120%;
+  width: 110%;
 }
 .card__paragraph {
   height: 60px;
@@ -88,5 +88,106 @@
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  color: #556987;
+}
+.card__text--primary {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+.center__txt {
+  margin: 50px;
+}
+.col__txt {
+  width: 127px;
+  height: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3b82f6;
+}
+.col__text--primary {
+  width: 450px;
+  height: 120px;
+  left: 0px;
+  top: 38px;
+
+  /* display-lg/Bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  /* Gray/900 */
+
+  color: #2a3342;
+}
+.card__txt {
+  width: 456px;
+  height: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #556987;
+}
+.Get__started {
+  background-color: #3b82f6;
+}
+.card__text--secondary {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+.middle__txt {
+  margin: 50px;
+}
+.col__text {
+  width: 127px;
+  height: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3b82f6;
+}
+.col__text--secondary {
+  width: 450px;
+  height: 120px;
+  left: 0px;
+  top: 38px;
+
+  /* display-lg/Bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  /* Gray/900 */
+
+  color: #2a3342;
+}
+.crd__txt {
+  width: 456px;
+  height: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
   color: #556987;
 }
