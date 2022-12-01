@@ -11,14 +11,66 @@
   line-height: 20px;
   color: #000000;
 }
+.body__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.for__creator {
+  width: 99px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #556987;
+}
+.for__companies {
+  width: 123px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #556987;
+}
+.log__in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 36px;
+  background: #ebedef;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
+  border: none;
+}
 .sign__up {
-  background-color: blue;
-  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  width: 86px;
+  height: 36px;
+  background: #3b82f6;
+  color: white;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
+  border: none;
 }
 .card__text {
   margin: 150px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.section__img {
+  width: 554px;
+  height: 464px;
+  left: 0px;
+  top: 0px;
+  border-radius: 24px;
 }
 .card__header {
   height: 180px;
@@ -48,6 +100,15 @@
 .find-brands {
   background-color: #3b82f6;
   color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.find-creators {
+  color: rgba(28, 35, 45, 0.9);
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
 }
 .content__list {
   margin: 100px;
@@ -139,8 +200,14 @@
   line-height: 30px;
   color: #556987;
 }
-.Get__started {
+.Get__Started {
   background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
 }
 .card__text--secondary {
   display: flex;
@@ -315,6 +382,15 @@
     rgba(28, 35, 45, 0.9) 100%
   );
 }
+.Learn__more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5dae1;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
+}
 .hero__button {
   margin: auto;
   width: 20%;
@@ -357,6 +433,20 @@
   font-size: 18px;
   line-height: 28px;
   color: #556987;
+}
+.Subscribe {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  left: 1173px;
+  top: 253px;
+  background: #3b82f6;
+  color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
+  border: none;
 }
 .footer__col {
   display: flex;
